@@ -44,7 +44,7 @@ const PostPage = async ({params}: Props) => {
             </div>
         </div>
       </div>
-      <Footer/>
+      <Footer props={socialData}/>
     </section>
   )
 }
