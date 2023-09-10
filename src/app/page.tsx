@@ -38,7 +38,7 @@ export default async function Home() {
     {/* contact */}
     <Contact/>
     {/* footer */}
-    <Footer/>
+    <Footer props={socialData}/>
    </div>
   )
 }
