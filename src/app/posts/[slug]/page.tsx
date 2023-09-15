@@ -36,7 +36,7 @@ const PostPage = async ({params}: Props) => {
         <Image src={postData.mainImage} alt="" className="w-full object-cover border-2 border-violet-500" height={500} width={500}/>
         <PortableText value={postData.body}/>
         <div className='flex items-center space-x-4 text-violet-500'>
-            <h3>Tech used:</h3>
+            <h3>Category:</h3>
             <div className='flex items-center space-x-2 text-sm font-bold'>
                {postData.categories.map((c:Category,index:number)=>(
                 <p key={index} className='bg-violet-200 rounded-lg p-1'>{c.title}</p> 
