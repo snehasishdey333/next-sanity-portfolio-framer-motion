@@ -14,7 +14,7 @@ const Footer = ({props}: Props) => {
        <Motion delay={1} direction={'left'}>
        <div className='flex items-center space-x-6'>
        {props?.map((s:Social,index:number)=>(
-          <SocialIcon key={index} style={{height:25,width:25}} bgColor='#793FEF' className='hover:scale-125 duration-200' url={s.url} />
+          <SocialIcon key={index} style={{height:25,width:25}} bgColor='#F1F6F9' fgColor='#793FEF' className='hover:scale-125 duration-200' url={s.url} />
         ))}
       </div>
        </Motion>
